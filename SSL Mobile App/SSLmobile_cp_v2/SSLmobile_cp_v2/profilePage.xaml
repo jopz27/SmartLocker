@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:m="using:SSLmobile_cp_v2.Model"
+             x:Class="SSLmobile_cp_v2.profilePage"
+             NavigationPage.HasNavigationBar="True">
+    <Page.Resources>
+        <m:userDetails x:Key="UserDetails"/>
+    </Page.Resources>
+    
+    <StackLayout VerticalOptions="Center">
+        <Label Text="Name" HorizontalTextAlignment="Center"/>
+        <Label x:Name="profileName" Text="" Font="Bold,24" HorizontalTextAlignment="Center"/>
+        <Label Text="ID number" HorizontalTextAlignment="Center"/>
+        <Label x:Name="profileIdNumber" Text="" Font="Bold,24" HorizontalTextAlignment="Center"/>
+        <Label Text="Mobile Number" HorizontalTextAlignment="Center"/>
+        <Label x:Name="profileMobileNumber" Text="" Font="Bold,24" HorizontalTextAlignment="Center"/>
+        <Button Text="Change mobile number"  Clicked="BtnChangeMobileNumber_clicked" HorizontalOptions="Center" BackgroundColor="Aqua"/>
+        <Button Text="View Transactions History" Clicked="BtnViewTransactions_clicked" HorizontalOptions="Center" BackgroundColor="Aqua"/>
+    </StackLayout>
+</ContentPage>

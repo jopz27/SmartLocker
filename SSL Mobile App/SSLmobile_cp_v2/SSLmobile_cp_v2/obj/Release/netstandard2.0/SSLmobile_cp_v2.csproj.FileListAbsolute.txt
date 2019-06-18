@@ -1,0 +1,9 @@
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\bin\Release\netstandard2.0\SSLmobile_cp_v2.deps.json
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\bin\Release\netstandard2.0\SSLmobile_cp_v2.dll
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\bin\Release\netstandard2.0\SSLmobile_cp_v2.pdb
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.csprojResolveAssemblyReference.cache
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.csproj.CoreCompileInputs.cache
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.AssemblyInfoInputs.cache
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.AssemblyInfo.cs
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.dll
+D:\mobile\v1\SSLmobile_cp_v2\SSLmobile_cp_v2\SSLmobile_cp_v2\obj\Release\netstandard2.0\SSLmobile_cp_v2.pdb

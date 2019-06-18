@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="SSLmobile_cp_v2.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SSLmobile_cp_v2.UWP"
+    RequestedTheme="Light">
+
+</Application>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SSLmobile_cp_v2.changeMobileNumberPopup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.0"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="False"/>
+    </pages:PopupPage.Animation>
+    <StackLayout VerticalOptions="Center" Padding="20,0" HorizontalOptions="FillAndExpand">
+        <Frame CornerRadius="10" Padding="0">
+            <StackLayout Padding="10">
+                <Label Text="mobile number:" />
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition Width="250" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="+63" FontSize="24" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalTextAlignment="End"/>
+                        <Entry x:Name="entryNewMobileNumber" Placeholder="10 digit number" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalOptions="Center"/>
+                    </Grid>
+                    
+                </StackLayout>
+                <Button Text="cancel" Clicked="btnCancel_clicked"/>
+                <Button Text="ok" Clicked="btnOk_clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</pages:PopupPage>
